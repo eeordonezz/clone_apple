@@ -1,0 +1,304 @@
+.datos{
+    width: 100%;
+    height: 300rem;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 100%;
+    gap: 1rem;
+
+}
+.seccion1{
+    text-decoration: none;
+    max-width: 100%;
+    width: 100%;
+
+
+}
+.iphone_15{
+
+    padding: 1rem;
+    width: 100%;
+    background-color: black;
+    height: 58rem;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.titulo1{
+    width: 100%;
+    height: 207.6px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.titulo_iphone15{
+
+    font-size: 5rem;
+    font-weight: 600;
+}
+.sub_iphone15{
+    font-size: 2.3rem;
+}
+.mas_informacion1{
+    max-width: 100%;
+
+
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11%;
+    height: 4.1rem;
+    background-color: #0071e3;
+    border-radius: 5rem;
+}
+.foto_iphone15{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.foto_iphone15 img{
+    max-width: 70%;
+
+    width: 70%;
+    height: 68%;
+}
+
+.seccion2{
+    text-decoration: none;
+    max-width: 100%;
+    width: 100%;
+
+
+}
+/* ---------------------- */
+.iphone_15_azul{
+
+    padding: 1rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.936);
+    height: 58rem;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.foto_iphone15_celeste{
+
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100%;
+}
+.foto_iphone15_celeste img{
+    max-width: 90%;
+    top: -1rem;
+    width: 100%;
+    height: 36.2rem;
+}
+.titulo2{
+    width: 100%;
+    height: 207.6px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.mas_informacion2{
+    max-width: 100%;
+
+
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11%;
+    height: 4.1rem;
+    background-color: #0071e3;
+    border-radius: 5rem;
+    color: white;
+}
+
+/* -------------------- */
+
+.ipad{
+
+    padding: 2rem;
+    width: 100%;
+    background-color: black;
+    height: 58rem;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.titulo3{
+    width: 100%;
+    height: 207.6px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.sub_ipad{
+    font-size: 2rem;
+    color: rgba(237, 235, 235, 0.585);
+
+}
+.sub_ipadpro{
+    font-size: 2.5rem;
+}
+
+.foto_ipad{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.foto_ipad img{
+    width: 50%;
+    height: 35rem;
+}
+
+/* ---------------- */
+
+.seccion3{
+    max-width: 100%;
+    width: 100%;
+    gap: 1rem;
+    padding: 0rem 1rem 0rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.ipad_air{
+    padding: 4rem 5% 2rem 5%;
+    width: 100%;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);    height: 58rem;
+    display: grid;
+    grid-template-rows: 40% 60%;
+
+}
+
+.ipadair_info1{
+ 
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 19% 19% 7% 30% 20%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.ipadair_info1 img{
+    margin: auto;
+    width: 40%;
+    height: 4rem;
+
+}
+.ipadair_info1 span{
+    font-size: 2rem;
+    margin: auto;
+
+}
+.consulta_ipad_air{
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.429);
+}
+.mas_informacion3{
+    max-width: 100%;
+    margin: auto;
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 3.8rem;
+    background-color: #000000;
+    border-radius: 5rem;
+}
+.ipadair_info2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.ipadair_info2 img{
+    width: 40%;
+    height: 100%;
+}
+/* ---------------- */
+
+.wcd{
+
+    padding: 2rem;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 60% 40%;
+
+}
+.ipadair_info3{
+    display: flex;
+justify-content: center;
+    width: 90%;
+    height: 100%;
+}
+.ipadair_info3 img{
+    width: 55%;
+    height: 100%;
+}
+.ipadair_info4{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    color: white;
+    margin: auto;
+}
+.ipadair_info4 img{
+    margin: auto;
+    width:30%;
+    height: 70%;
+
+}
+.ipadair_info4 span{
+
+    margin: auto;
+    font-size: 2rem;
+}
+.mes_junio{
+    color: white;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.mas_mas{
+    font-size: 1.5rem;    
+    max-width: 100%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 3.8rem;
+    background-color: #0071e3;
+    border-radius: 5rem;
+}
+.ipad_air_link .ipad_air{
+    text-decoration: none;
+}
